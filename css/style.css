@@ -1,6 +1,7 @@
 html, body {
     color: #fff;
     background-color: #000;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -989,10 +990,15 @@ html, body {
 
 /*===============================1250PX=========================================*/
 @media(max-width: 1300px) {
-.header__icons{
-    padding-left: 400px;
+    .header__icons {
+        padding-left: 400px;
+    }
+
+    .questions__acc {
+        margin-left: 425px;
+    }
 }
-}
+
 /*==============================1200PX========================================*/
 @media(max-width: 1200px) {
     .header__icons {
@@ -1019,9 +1025,9 @@ html, body {
         margin-right: 35px;
     }
 
-    .question__acc {
+    .questions__acc {
         width: 550px;
-        margin-left: -250px;
+        margin-left: 450px;
     }
 
     .questions__acc-item {
@@ -1032,22 +1038,30 @@ html, body {
         width: 782px;
         height: 493px;
     }
-    .discord__img{
+
+    .discord__img {
         margin-left: 450px;
     }
 }
+
 /*==============================1100PX=========================================*/
 @media(max-width: 1150px) {
-    .header__icons{
+    .header__icons {
         padding-left: 325px;
     }
+
+    .questions__acc {
+        margin-left: 400px;
+    }
 }
+
 /*==============================1100PX=========================================*/
 
 @media(max-width: 1100px) {
-    .header__icons{
+    .header__icons {
         padding-left: 300px;
     }
+
     .story__accordeon-box {
         margin-left: 200px;
         width: 740px;
@@ -1057,10 +1071,12 @@ html, body {
     .story__accordeon-item {
         width: 200px;
     }
-    .team__box-item{
+
+    .team__box-item {
         margin-right: 0;
     }
-    .discord__img{
+
+    .discord__img {
         margin-left: 400px;
     }
 }
@@ -1406,6 +1422,14 @@ html, body {
     .questions__acc {
         width: 415px;
     }
+
+    .footer__box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__box-item{
+        margin-bottom: 5px;
+    }
 }
 
 /*===============================450PX=========================================*/
@@ -1424,7 +1448,7 @@ html, body {
 
     .roadmap__item1 {
         width: 375px;
-        margin-left: -15px;
+        margin-left: 5px;
     }
 
     .roadmap__item-img {
@@ -1433,14 +1457,15 @@ html, body {
 
     .roadmap__item2 {
         width: 375px;
-        margin-left: -15px;
+        margin-left: 5px;
     }
 
     .roadmap__item3 {
         width: 375px;
-        margin-left: -15px;
+        margin-left: 5px;
     }
-    .roadmap__item-head::before{
+
+    .roadmap__item-head::before {
         width: 374px;
     }
 
@@ -1453,7 +1478,7 @@ html, body {
     }
 
     .questions__acc {
-        width: 400px;
+        width: 360px;
     }
 
     .discord__content {
@@ -1513,28 +1538,28 @@ html, body {
     }
 
     .roadmap__item1 {
-        width: 315px;
-        margin-left: 2px;
+        width: 295px;
+        margin-left: 5px;
     }
 
     .roadmap__item2 {
-        width: 315px;
-        margin-left: 0px;
+        width: 295px;
+        margin-left: 5px;
     }
 
     .roadmap__item3 {
-        width: 315px;
-        margin-left: 0px;
+        width: 295px;
+        margin-left: 5px;
     }
 
     .roadmap__item-head::before {
-        width: 315px;
+        width: 294px;
     }
 
     .questions__acc {
-        width: 380px;
+        width: 320px;
         height: 250px;
-        margin-left: -6px;
+        margin-left: -10px;
     }
 
     .footer__box-title {
