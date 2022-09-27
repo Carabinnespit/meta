@@ -745,6 +745,10 @@ html, body {
     transform: rotate(0deg);
 }
 
+.tabcontent{
+    display: none;
+}
+
 /*=============================================================================*/
 
 .team__line {
@@ -825,7 +829,7 @@ html, body {
 /*=============================================================================*/
 
 .discord {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .discord__content {
